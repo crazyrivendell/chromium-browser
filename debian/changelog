@@ -1,3 +1,44 @@
+chromium-browser (65.0.3325.181-0ubuntu1) bionic; urgency=medium
+
+  * Upstream release: 65.0.3325.181
+
+ -- Olivier Tilloy <olivier.tilloy@canonical.com>  Wed, 21 Mar 2018 11:27:29 +0100
+
+chromium-browser (65.0.3325.146-0ubuntu1) bionic; urgency=medium
+
+  * Upstream release: 65.0.3325.146
+    - CVE-2018-6058: Use after free in Flash.
+    - CVE-2018-6059: Use after free in Flash.
+    - CVE-2018-6060: Use after free in Blink.
+    - CVE-2018-6061: Race condition in V8.
+    - CVE-2018-6062: Heap buffer overflow in Skia.
+    - CVE-2018-6057: Incorrect permissions on shared memory.
+    - CVE-2018-6063: Incorrect permissions on shared memory.
+    - CVE-2018-6064: Type confusion in V8.
+    - CVE-2018-6065: Integer overflow in V8.
+    - CVE-2018-6066: Same Origin Bypass via canvas.
+    - CVE-2018-6067: Buffer overflow in Skia.
+    - CVE-2018-6068: Object lifecycle issues in Chrome Custom Tab.
+    - CVE-2018-6069: Stack buffer overflow in Skia.
+    - CVE-2018-6070: CSP bypass through extensions.
+    - CVE-2018-6071: Heap bufffer overflow in Skia.
+    - CVE-2018-6072: Integer overflow in PDFium.
+    - CVE-2018-6073: Heap bufffer overflow in WebGL.
+    - CVE-2018-6074: Mark-of-the-Web bypass.
+    - CVE-2018-6075: Overly permissive cross origin downloads.
+    - CVE-2018-6076: Incorrect handling of URL fragment identifiers in Blink.
+    - CVE-2018-6077: Timing attack using SVG filters.
+    - CVE-2018-6078: URL Spoof in OmniBox.
+    - CVE-2018-6079: Information disclosure via texture data in WebGL.
+    - CVE-2018-6080: Information disclosure in IPC call.
+    - CVE-2018-6081: XSS in interstitials.
+    - CVE-2018-6082: Circumvention of port blocking.
+    - CVE-2018-6083: Incorrect processing of AppManifests.
+  * debian/rules: remove use_gconf build flag
+  * debian/known_gn_gen_args-*: remove use_gconf build flag
+
+ -- Olivier Tilloy <olivier.tilloy@canonical.com>  Wed, 07 Mar 2018 11:40:01 +0100
+
 chromium-browser (64.0.3282.140-0ubuntu0.16.04.1) xenial; urgency=medium
 
   * Upstream release: 64.0.3282.140
